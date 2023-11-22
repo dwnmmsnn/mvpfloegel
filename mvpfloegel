@@ -3,17 +3,25 @@
 
 <head>
 <title>mvpfloegel/mindlistprd</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
+<div class=box>
 <body>
+  
+<div class=button>
+<button onclick="showSidemenu ()">
+Menu
+</button>
+</div>
+
 <div class=sidemenu>
 <ul>
 <li><a href="https://www.mvpfloegel.com/home">Home</a></li>
 <li><a href="https://www.mvpfloegel.com/improving/mindlist">Improving Mindlist</a></li>
-<li><a href="https://www.mvpfloegel.com/mindlist/prd">Mindlist PRD</a></li>
-<div class=subitem>
-<ul>
+<li class=item><a href="https://www.mvpfloegel.com/mindlist/prd">Mindlist PRD</a></li>
+
+<ul class=submenu>
 <li><a href="www.mvpfloegel.com/mindlist/prd/user">User</a></li>
 <li><a href="www.mvpfloegel.com/mindlist/prd/user/types">User Types</a></li>
 <li><a href="www.mvpfloegel.com/mindlist/prd/product">Product</a></li>
@@ -21,16 +29,15 @@
 <li><a href="www.mvpfloegel.com/mindlist/prd/successmetrics">Success Metrics</a></li>
 <li><a href="www.mvpfloegel.com/mindlist/prd/open/questions">Open Questions</a></li>
 </ul>
-</div>
-<li><a href="https://www.mvpfloegel.com/floegel">Floegel</a></li>
+
+<li><a href="https://github.com/dwnmmsnn/mvpfloegel">Github</a></li>
 </ul>
 </div>
 
-<div class=prd>
 <h1>Mindlist PRD</h1></br></br></br></br>
 
+<div class=prd>
 <h>User</h></br></br>
-
 
 <p></p></br></br>
 
@@ -74,8 +81,12 @@ number of times user opens Mindlist with popups 10 times per user per week</br>
 
 <h>Open Questions</h></br></br>
 
-<p></p></br></br>
+<p>Pricing Modell?</br>
+Will existing users continue to use Mindlist?</br>
+How often should users be notified with suggestions?</br>
+How often should the window with undone To dos be shown?</br></p></br></br>
 </div>
 
 </body>
+</div>
 </html>
