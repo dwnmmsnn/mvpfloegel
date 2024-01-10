@@ -1,46 +1,47 @@
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 400px) {
 
 .openbtn {
 align-self: flex-end;
-width: 60px;
-height: 60px;
-margin: 49px;
-background:none;
-border:none;
+width: 29x;
+height: 29px;
+margin: 22px;
+margin-bottom: 49px;
+background: none;
+border: none;
 font-family: system-ui;
-font-size: 22px;
+font-size: 17px;
 color: #1b1c1c;
 }
 
 .sidemenu .closebtn {
-width: 49px;
-height; 49px;
-margin: 20px;
-margin-left: 149px;
+align-self: flex-end;
+width: 29px;
+height; 29px;
+margin: 22px;
+margin-bottom: 49px;
 background: none;
 border: none;
 font-family: system-ui;
-font-size: 22px;
+font-size: 17px;
 color: #1b1c1c;
 }
 
 .sidemenu {
+position: fixed;
 display: flex;
 width: 100%;
 height:100%;
 backround-color: #ffffff;
 font-family: system-ui;
 display: none;
- }
+}
 
 .sidemenu ul {
+align-self: center;
 list-style-type: none;
 font-family: system-ui;
-margin: 0;
-padding: 0;
 overflow: hidden;
 margin-top: 129px;
-margin-left: 449px;
 margin-bottom: 229px;
 }
 
@@ -48,27 +49,27 @@ margin-bottom: 229px;
 font-family: system-ui;
 color: #1b1c1c;
 text-decoration: none;
-font-size: 22px;
+font-size: 17px;
 }
 
-.sidemenu a:active {
+.sidemenu a:hover {
 font-family: system-ui;
-color: #1b1c1c;
+color: #717171;
 text-decoration: none;
-font-size: 22px;
+font-size: 17px;
 }
 
 h1 { 
 align-self: center;
-​​font-family: system-ui;
+font-family: system-ui;
 font-weight: 20px;
-font-size: 29px;
+font-size: 22px;
 margin-top: 29px;
 margin-bottom: 49px;
 color: #1b1c1c;
 }
-
-.prdbox {
+  
+.box {
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -77,47 +78,29 @@ height: 100%;
 
 .prd {
 align-self: center;
-width: 600px;
-height: 2000px;
+width: 190px;
+height: 1000px;
 margin-bottom: 79px;
 }
 
 .prd h {
 align-self: center;
 font-family: system-ui;
-font-weight: 100%;
-font-size: 100%;
 color: #1b1c1c;
 }
 
 .prd p {
 align-self: center;
 font-family: system-ui;
+font-size: 14px;
 color: #1b1c1c;
 }
 
-.connect {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-}
-
-.connect h1 { 
-align-self: center;
-​​font-family: system-ui;
-font-weight: 20px;
-font-size: 29px;
-margin-top: 29px;
-margin-bottom: 29px;
-color: #1b1c1c;
-}
-
-form {
+.form {
 align-self: center;
 display: flex;
 flex-direction: column;
-width: 400px;
+width: 200px;
 height: 400px;
 }
 
@@ -127,27 +110,30 @@ display: flex;
 
 .fname input[type=text] {
 flex: 1;
+border: none;
+border-bottom: 1px solid;
 border-color: #1b1c1c;
-border-radius: 9px;
-width: 190px;
+width: 82px;
 height: 20px;
 font-family: system-ui;
 margin: 10px;
 }
 
 .email input[type=text] {
+border: none;
+border-bottom: 1px solid;
 border-color: #1b1c1c;
-border-radius: 9px;
-width: 414px;
+width: 192px;
 height: 20px;
 font-family: system-ui;
-margin: 10px;
+margin-left: 10px;
 }
 
 .subject input[type=text] {
+border: none;
+border-bottom: 1px solid;
 border-color: #1b1c1c;
-border-radius: 9px;
-width: 414px;
+width: 192px;
 height: 200px;
 font-family: system-ui;
 margin: 10px;
@@ -157,8 +143,9 @@ margin: 10px;
 align-self: center;
 width: 90px;
 height: 29px;
-margin-top: 22px;
-margin-left: 170px;
+margin-top: 20px;
+margin-left: 60px;
+border: 1px solid;
 background-color: #ffffff;
 border-color: #1b1c1c;
 border-radius: 20px;
@@ -172,8 +159,9 @@ color: #1b1c1c;
 align-self: center;
 width: 90px;
 height: 29px;
-margin-top: 22px;
-margin-left: 170px;
+margin-top: 20px;
+margin-left: 60px;
+border: 1px solid;
 background-color: #ffffff;
 border-color: #717171;
 display: inline-block;
@@ -189,8 +177,44 @@ color: #1b1c1c;
 align-self: center;
 width: 90px;
 height: 29px;
-margin-top: 22px;
-margin-left: 170px;
+margin-top: 20px;
+margin-left: 60px;
+margin-left: 60px;
+border: 1px solid;
+background-color: #ffffff;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+box-shadow: 0px 10px 22px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+.submitbtn:hover {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 20px;
+margin-left: 60px;
+border: 1px solid;
+background-color: #ffffff;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+box-shadow: 0px 10px 22px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+
+.submitbtn:active {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 20px;
+margin-left: 60px;
 background-color: #717171;
 border-color: #717171;
 display: inline-block;
@@ -198,13 +222,6 @@ border-radius: 20px;
 font-family: system-ui;
 font-size: 12px;
 color: #ffffff;
-} 
-
-.homebox {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
 }
 
 .home {
@@ -216,20 +233,19 @@ height: 100%;
 
 .home .homeh {
 align-self: center;
-width: 299px;
-height: 200px;
+width: 190px;
+height: 129px;
 font-family: system-ui;
-font-size: 49px;
+font-size: 29px;
 }
 
 .home .homep {
 align-self: center;
-width: 299px;
+width: 200px;
 height: 400px;
 font-family: system-ui;
-font-size: 20px;
-margin-top: 129px;
-margin-bottom: 79px;
+font-size: 14px;
+margin-top: 49px;
 }
 
 .homeul {
@@ -240,7 +256,7 @@ align-self: center;
 align-self: center;
 list-style-type: none;
 font-family: system-ui;
-font-size: 22px;
+font-size: 17px;
 margin-top: 49px;
 margin-bottom: 79px;
 }
@@ -258,7 +274,7 @@ color: #717171;
 .imghome {
 display: flex;
 align-self: center;
-margin-top: 79px;
+margin-top: 49px;
 }
 
 .imghome img {
@@ -278,17 +294,17 @@ padding: 2px;
 
 .home .buttonp {
 align-self: center;
-width: 290px;
-height: 29px;
+width: 200px;
+height: 79px;
+font-size: 14px;
 margin-top: 49px;
 }
 
 .home .homebtn {
 align-self: center;
-width: 90px;
+width: 79px;
 height: 29px;
-margin-top: 79px;
-font-size: 1em;
+margin-top:29px;
 background-color: #ffffff;
 border-color: #1b1c1c;
 display: inline-block;
@@ -300,9 +316,9 @@ color: #1b1c1c;
 
 .home .homebtn:hover {
 align-self: center;
-width: 90px;
+width: 79px;
 height: 29px;
-margin-top: 79px;
+margin-top: 29px;
 background-color: #ffffff;
 border-color: #717171;
 display: inline-block;
@@ -313,35 +329,32 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-.imprbox {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-}
-
 .impr {
 align-self: center;
 display: flex;
 flex-direction: column;
-width: 400px;
-heigth: 2000px;
-margin-left: 299px;
+width: 190px;
+heigth: 1000px;
 margin-bottom: 79px;
 }
 
 .impr h {
-align-self: center;
+align-self: flex-start;
 font-family: system-ui;
-margin: 11px;
-}
-
-.impr .img {
-align-self: center;
 margin-top: 20px;
+margin-bottom: 29px;
 }
 
-@media only screen and (min-width: 770px)
+.impr img {
+align-self: flex-start;
+width: 190px;
+height: 79px;
+margin-bottom: 20px;
+}
+  
+}
+
+@media only screen and (min-width: 700px) {
 
 .openbtn {
 align-self: flex-end;
@@ -353,9 +366,18 @@ background: none;
 border: none;
 font-family: system-ui;
 font-size: 22px;
-color: #1b1c1c;
+color: #ffffff;
 }
 
+.sidemenu {
+position: fixed;
+width: 100%;
+height: 100px;
+top: 0;
+left: 0;
+right: 0;
+} 
+  
 .sidemenu .closebtn {
 background: none;
 border: none;
@@ -365,7 +387,6 @@ color: #ffffff;
 .sidemenu ul {
 list-style-type: none;
 font-family: system-ui;
-overflow: hidden;
 margin-top; 29px;
 margin-left: 449px;
 margin-bottom: 100px;
@@ -397,7 +418,7 @@ text-decoration: none;
 
 h1 { 
 align-self: center;
-​​font-family: system-ui;
+font-family: system-ui;
 font-weight: 20px;
 font-size: 29px;
 margin-top: 29px;
@@ -405,7 +426,7 @@ margin-bottom: 49px;
 color: #1b1c1c;
 }
 
-.prdbox {
+.box {
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -433,13 +454,6 @@ font-family: system-ui;
 color: #1b1c1c;
 }
 
-.connect {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-}
-
 .form {
 align-self: center;
 display: flex;
@@ -454,8 +468,9 @@ display: flex;
 
 .fname input[type=text] {
 flex: 1;
+border: none;
+border-bottom: 1px solid;
 border-color: #1b1c1c;
-border-radius: 9px;
 width: 190px;
 height: 20px;
 font-family: system-ui;
@@ -463,8 +478,9 @@ margin: 10px;
 }
 
 .email input[type=text] {
+border: none;
+border-bottom: 1px solid;
 border-color: #1b1c1c;
-border-radius: 9px;
 width: 414px;
 height: 20px;
 font-family: system-ui;
@@ -472,8 +488,9 @@ margin: 10px;
 }
 
 .subject input[type=text] {
+border: none;
+border-bottom: 1px solid;
 border-color: #1b1c1c;
-border-radius: 9px;
 width: 414px;
 height: 200px;
 font-family: system-ui;
@@ -486,6 +503,7 @@ width: 90px;
 height: 29px;
 margin-top: 22px;
 margin-left: 170px;
+border: 1px solid;
 background-color: #ffffff;
 border-color: #1b1c1c;
 border-radius: 20px;
@@ -501,6 +519,7 @@ width: 90px;
 height: 29px;
 margin-top: 22px;
 margin-left: 170px;
+border: 1px solid;
 background-color: #ffffff;
 border-color: #717171;
 display: inline-block;
@@ -511,13 +530,13 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-
 .submitbtn:active {
 align-self: center;
 width: 90px;
 height: 29px;
 margin-top: 22px;
 margin-left: 170px;
+border: 1px solid;
 background-color: #717171;
 border-color: #717171;
 display: inline-block;
@@ -525,15 +544,8 @@ border-radius: 20px;
 font-family: system-ui;
 font-size: 12px;
 color: #ffffff;
-} 
-
-.homebox {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
 }
-
+  
 .home {
 display: flex;
 flex-direction: column;
@@ -555,7 +567,7 @@ width: 400px;
 height: 400px;
 font-family: system-ui;
 font-size: 20px;
-margin-top: 129px;
+margin-top: 79px;
 }
 
 .homeul {
@@ -639,22 +651,6 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-.impr h1 { 
-align-self: center;
-font-family: system-ui;
-font-weight: 20px;
-font-size: 29p;
-margin-bottom: 100px;
-color: #1b1c1c;
-}
-
-.imprbox {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-}
-
 .impr {
 align-self: center;
 display: flex;
@@ -667,10 +663,14 @@ margin-bottom: 79px;
 .impr h {
 align-self: flex-start;
 font-family: system-ui;
-margin: 11px;
+margin-top: 29px;
+margin-bottom: 29px;
 }
 
-.impr .img {
-align-self: center;
-margin-top: 20px;
+.impr img {
+align-self: flex-start;
+width: 490px;
+height: 229px;
+}
+
 }
