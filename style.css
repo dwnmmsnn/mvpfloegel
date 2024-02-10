@@ -1,4 +1,4 @@
-.grid{
+.grid {
 display: grid;
 grid-template-columns: min(200px) auto auto auto auto min(200px);
 grid-template-rows: min(100px) auto auto auto auto min(100px);
